@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "moWMhvrhSHc=",
+  "success": true,
+  "projectFilePath": "D:\\dotlauncher\\DotLauncher\\DotLauncher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vlad\\.nuget\\packages\\cmllib.core\\4.0.6\\cmllib.core.4.0.6.nupkg.sha512",
+    "C:\\Users\\Vlad\\.nuget\\packages\\cmllib.core.commons\\4.0.0\\cmllib.core.commons.4.0.0.nupkg.sha512",
+    "C:\\Users\\Vlad\\.nuget\\packages\\lzma-sdk\\19.0.0\\lzma-sdk.19.0.0.nupkg.sha512",
+    "C:\\Users\\Vlad\\.nuget\\packages\\photino.native\\3.2.3\\photino.native.3.2.3.nupkg.sha512",
+    "C:\\Users\\Vlad\\.nuget\\packages\\photino.net\\3.2.3\\photino.net.3.2.3.nupkg.sha512",
+    "C:\\Users\\Vlad\\.nuget\\packages\\sharpziplib\\1.4.2\\sharpziplib.1.4.2.nupkg.sha512",
+    "C:\\Users\\Vlad\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512",
+    "C:\\Users\\Vlad\\.nuget\\packages\\system.threading.tasks.dataflow\\8.0.1\\system.threading.tasks.dataflow.8.0.1.nupkg.sha512",
+    "C:\\Users\\Vlad\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.21\\microsoft.aspnetcore.app.ref.8.0.21.nupkg.sha512",
+    "C:\\Users\\Vlad\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.21\\microsoft.netcore.app.host.win-x64.8.0.21.nupkg.sha512",
+    "C:\\Users\\Vlad\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.21\\microsoft.netcore.app.ref.8.0.21.nupkg.sha512",
+    "C:\\Users\\Vlad\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.21\\microsoft.windowsdesktop.app.ref.8.0.21.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -18,16 +18,13 @@ namespace HelloPhotinoApp
             // Window title declared here for visibility
             string windowTitle = "Dot Launcher";
 
-            // Creating a new PhotinoWindow instance with the fluent API
             var window = new PhotinoWindow()
                 .SetTitle(windowTitle)
-                // Resize to a percentage of the main monitor work area
                 .SetUseOsDefaultSize(false)
                 .SetSize(new Size(1024, 800))
                 // Center window in the middle of the screen
                 .Center()
                 // Users can resize windows by default.
-                // Let's make this one fixed instead.
                 .SetResizable(false)
                 // Most event handlers can be registered after the
                 // PhotinoWindow was instantiated by calling a registration 
@@ -41,14 +38,12 @@ namespace HelloPhotinoApp
                     // "window.external.sendMessage(message: string)"
                     if (message.StartsWith("launch")) { startMinecraft(); }
 
-                    // Send a message back the to JavaScript event handler.
-                    // "window.external.receiveMessage(callback: Function)"
                 })
                 .Load("wwwroot/index.html"); // Can be used with relative path strings or "new URI()" instance to load a website.
 
             window.WaitForClose(); // Starts the application event loop
         }
-// sdadsadsa
+
         static async void startMinecraft()
         {
             var path = new MinecraftPath(); //Finds the minecraft path
@@ -68,7 +63,7 @@ namespace HelloPhotinoApp
             await launcher.InstallAsync("1.20.4"); //Install version
             var process = await launcher.BuildProcessAsync("1.20.4", new MLaunchOption
             {
-                Session = MSession.CreateOfflineSession("Gamer123"), //(<= Nickname)  Makes startup settings
+                Session = MSession.CreateOfflineSession("Gamer123"), //(<= Nickname) Makes startup settings
                 MaximumRamMb = 4096, //(<= Maximum Ram for minecraft, 4GB)
                 MinimumRamMb = 1026  //(<= Minimum Ram for minecraft, 1GB)
             });
